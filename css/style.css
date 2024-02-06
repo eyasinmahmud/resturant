@@ -1,0 +1,793 @@
+/* Google Font :: Start */
+/* Roboto */
+/* Raleway */
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Google Font :: End */
+
+/* Navigation Bar :: Start */
+nav.header-bg{
+    background: #f9f6ee !important;
+}
+ul.header-text li a{
+    text-transform: uppercase;
+    margin: 0px 15px;
+    color: #111111;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: .2s;
+    font-weight: 500;
+}
+ul.header-text li a:hover{
+    color: #f9de9b ;
+}
+.custom-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.active{
+
+    color: #f9de9b !important;
+}
+
+/* Navigation Bar :: End */
+
+
+/* Hero Section Css :: Start */
+#site-hero{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner-discount{
+    width: 250px;
+    height: 250px;
+    background: #99e54d;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-discount h2{
+    color: #111111;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.banner-discount h5{
+    color: #111111;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+div.banner-title h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+div.banner-title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 21px;
+    line-height: 1.1;
+
+}
+div.banner-title p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 21px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+div.banner-title a{
+    color: #99e54d !important;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+div.banner-title .last-btn{
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .2s;
+    font-weight: 700;
+}
+div.banner-title .last-btn:hover{
+   background: #f9de9b !important;
+   color: #111111 !important;
+}
+
+/* Hero Section Css :: End */
+
+/* Populler Food Section :: Start */
+#populler-food{
+    background: #1a1a1a;
+}
+.populler-child-wrap img{
+    position: relative;
+}
+.populler-child-wrap {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('../img/food/food1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.populler-child-wrap-tow {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('../img/food/food2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.populler-child-wrap-three {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('../img/food/food3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.populler-child-wrap h4{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    
+}
+.populler-child-wrap-tow h4{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    
+}
+.populler-child-wrap-three h4{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    
+}
+.populler-child{
+    height: 400px !important;
+}
+
+/* Populler Food Section :: End */
+
+/* Ginger Section :: Start */
+#site-ginger{
+    padding-top: 100px !important;
+}
+.ginger-bg{
+    background: #1a1a1a;
+   
+}
+.ginger-image-wrapper {
+    background: url('../img/ginger.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 40px;
+}
+.ginger-content {
+    padding: 50px 40px 0px 40px;
+}
+.ginger-content h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+
+}
+.ginger-content h5{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+.ginger-content p{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+
+}
+/* Ginger Section :: End */
+
+/* Gallery Section :: Start  */
+
+#site-gallery{
+    background: #1a1a1a;
+}
+.gallery-img-wrap{
+    background: url('../img/gallery/gallery1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 40px;
+}
+.gallery-img-wrap-tow{
+    background: url('../img/gallery/gallery2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 40px;
+}
+.gallery-img-wrap-three{
+    background: url('../img/gallery/gallery3.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 40px;
+}
+
+
+/* Gallery Section :: Ends */
+
+/* CROISSANT WITH TOPPING :: Start */
+
+
+.croissant-with-popping{
+    background: url('../img/croissant.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 40px;
+}
+
+
+/* CROISSANT WITH TOPPING :: End */
+
+
+/* View Our Menu Section :: Start */
+
+#view-our-menu{
+    background: #1a1a1a;
+}
+.menu-title h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+}
+.menu-title p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    margin-top: 30px;
+
+}
+.menu-title a{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #f1ae0e ;
+    text-decoration: none;
+
+}
+.menu-info h3{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.menu-info a{
+    background: #99e54d ;
+    margin-top: 25px;
+    padding: 16px 40px;
+    border-radius: 30px;
+   display: inline-block;
+   text-decoration: none;
+   color: #111111;
+   transition: .2s;
+
+}
+.menu-info a{
+    background: #93f036  ;
+
+}
+
+div.menu-image{
+    background: url('../img/menu/menu1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 500px;
+}
+div.menu-image-tow{
+    background: url('../img/menu/menu2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 500px;
+}
+div.menu-image-three{
+    background: url('../img/menu/menu3.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 500px;
+}
+div.menu-image-four{
+    background: url('../img/menu/menu4.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 500px;
+}
+
+
+/* View Our Menu Section :: End */
+
+/* CHICKEN SECTION  :: START */
+
+.chicken-image-wrapper{
+    background: url('../img/chiken.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 40px;
+}
+/* CHICKEN SECTION  :: END */
+
+/* Site Contact Css :: Start */
+#site-contact{
+    background: linear-gradient(rgba(0,120,0,0.4),rgba(127,0,0,0.4)), url('../img/contact-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 110px 0px;
+}
+
+
+div.site-contact-heading h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    margin-top: 100px;
+    
+}
+div.site-contact-heading p{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.site-contact-form form input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.site-contact-form form button{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: #99e54d ;
+    color: #111111;
+    margin-left: 30px !important;
+    transition: .2s;
+}
+.site-contact-form form button:hover{
+    background: #8ae132  ;
+    
+}
+
+/* Site Contact Css :: End */
+
+/* SIte Map Location Css :: Start */
+
+#map-location{
+    background: #1a1a1a;
+}
+.map-item-content .map-img{
+    width: 70px ;
+    height: 70px ;
+    background: #99e54d;
+    border-radius: 50%;
+    line-height: 70px;
+    margin: auto;
+}
+.map-item-content .map-img i{
+    font-size: 45px;
+    color: #111111;
+}
+div.map-title h5{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    font-weight: 700 !important;
+
+}
+div.map-info p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+div.map-info a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+/* SIte Map Location Css :: End */
+
+
+/* Footer Css :: Start */
+#site-footer{
+    background: #333333;
+}
+.copy-right-cotent-wrap p{
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px !important;
+}
+.copy-right-cotent-wrap a{
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #f1ae0e;
+    transition: .2s;
+}
+.copy-right-cotent-wrap a:hover{
+    color: #99e54d;
+}
+/* Footer Css :: End */
+
+
+
+/* ===========================================================
+    Landin.html page custom css section :: Start
+=================================================================*/
+
+
+/* Landing Banner section css :: Start  */
+#landing-banner{
+    background: #f9f6ee;
+    
+}
+.lading-box-wrapper{
+    background: #99e54d;
+    border-radius: 40px;
+    position: relative;
+}
+.landing-discount {
+    width: 250px;
+    height: 250px;
+    background: #000000;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    top: -5%;
+}
+.landing-discount h2{
+    color: #111111;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.landing-discount h5{
+    color: #111111;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+div.landing-discounts a{
+    color: #fff !important;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+div.landing-discounts .landing-btn{
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .2s;
+    font-weight: 700;
+    background: #000;
+}
+div.landing-discounts .landing-btn:hover{
+   background: #fff !important;
+   color: #000 !important;
+}
+.banner-title.landing-discounts {
+    margin-top: 200px;
+}
+.lading-box-wrapper-tow{
+    height: 100%;
+    border-radius: 40px;
+    width: 100%;
+}
+.lading-box-wrapper-tow img{
+    border-radius: 40px;
+}
+
+
+/* Landing Banner section css :: End */
+
+/* Lading Menu CSs :: Start */
+
+#landing-menu{
+    background: #f9f6ee;
+
+}
+.landing-menu-wrapper{
+    padding: 40px;
+    background: #fff;
+    border-radius: 40px;
+}
+div.menu-landing{
+    background: url('../img/menu/menu1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 350px;
+}
+div.menu-landing-tow{
+    background: url('../img/menu/menu2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 350px;
+}
+div.menu-landing-three{
+    background: url('../img/menu/menu3.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 350px;
+}
+div.menu-landing-four{
+    background: url('../img/menu/menu4.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 350px;
+}
+
+
+/* Lading Menu CSs :: End */
+
+
+/* Keep up Section :: Start */
+
+
+
+
+/* Keep up Section :: End */
+
+
+
+/* Magic Kitchen Css :: Start */
+#magic-kitchen{
+    background: #f9f6ee;
+}
+.magic-kitchen-wrapper{
+    background: #000;
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+}
+.magic-kitchen-wrapper .kitchen-btn{
+    color: #000 !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .2s;
+    font-weight: 700;
+    background: #93f036;
+}
+.magic-kitchen-wrapper .kitchen-btn:hover{
+    background: #fff !important;
+    color: #000 !important;
+}
+
+
+/* Magic Kitchen Css :: End */
+
+
+/* Landing blog  section CSS :: Start */
+#landing-blog{
+    background: #f9f6ee;
+}
+.landing-child-box .headline{
+    text-decoration: none;
+    font-size: 16px;
+}
+.landing-child-box h4{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+.landing-child-box p{
+
+}
+.landing-child-box .landing-box-btn{
+    color: #000 !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .2s;
+    font-weight: 700;
+    background: #93f036;
+    transition: .2s;
+    margin-bottom: 200px;
+}
+.landing-child-box .landing-box-btn:hover{
+    color: #fff !important;
+    background: #f1ae0e ;
+}
+/* Landing blog  section CSS :: End */
+
+
+
+/* subscribe-up css :: start */
+#subscribe-up{
+    background: #99e54d;
+}
+.subscribe-up-btn-wrap input{
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.subscribe-up-btn-wrap button{
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    
+}
+.subscribe-up-btn-wrap input:first-child{
+  margin-right: 20px;
+
+}
+.subscribe-up-btn-wrap input:last-child{
+  margin-right: 20px !important;
+
+}
+/* subscribe-up css :: End */
+
+
+
+/* Landing contact Form ::: Start */
+.lading-contact-wrapper-tow{
+    height: 100%;
+    border-radius: 40px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+}
+.landing-icon-item-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.item-landing-col-left .map-img{
+    width: 70px;
+    height: 70px;
+    background: #000;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+}
+.item-landing-col-left .map-img i{
+    font-size: 45px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* Landing contact Form ::: Ends */
+
+
+
+
+
+
+
+
+
+/* ===========================================================
+    Landin.html page custom css section :: End
+=================================================================*/
+
+
+@media only screen and (max-width: 576px) and (min-width: 200px){
+
+
+    div.banner-title h1 {
+        font-size: 40px;
+    }
+    .subscribe-up-btn-wrap input {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .landing-icon-item-row {
+        gap: 10px;
+    }
+    .subscribe-up-btn-wrap input:first-child {
+        margin-right: 0px !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    
+    */

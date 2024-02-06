@@ -1,0 +1,159 @@
+
+
+@media only screen and (max-width: 1920px) and (min-width: 992px)  {
+
+.ginger-position{
+    position: relative;
+}
+.ginger-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.chicken-image-wrapper {
+    height: 600px;
+}
+.gallery-img-wrap {
+    height: 400px;
+}
+.gallery-img-wrap-tow {
+    height: 400px;
+}
+.gallery-img-wrap-three {
+    height: 400px;
+}
+div.menu-image {
+    height: 600px;
+}
+div.menu-image-tow {
+    height: 600px;
+}
+div.menu-image-three {
+    height: 600px;
+}
+div.menu-image-four {
+    height: 600px;
+}
+
+
+
+}
+
+/* Tablet ScreenSize */
+
+@media only screen and (max-width: 991px) and (min-width: 576px){
+
+    .ginger-image-wrapper {
+        height: 370px;
+    }
+
+    .ginger-content {
+        padding: 0px 0px 0px 0px;
+    }
+    .croissant-with-popping {
+        height: 370px;
+    }
+    div.menu-image {
+        height: 340px;
+    }
+    div.menu-image-tow {
+        height: 340px;
+    }
+    div.menu-image-three {
+        height: 340px;
+    }
+    div.menu-image-four {
+        height: 340px;
+    }
+    .chicken-image-wrapper {
+        height: 370px;
+    }
+    .gallery-img-wrap-tow {
+        height: 360px;
+    }
+    .gallery-img-wrap {
+        height: 360px;
+    }
+    .gallery-img-wrap-three {
+        height: 360px;
+    }
+    .populler-child-wrap {
+        height: 340px;
+    }
+    .populler-child-wrap-tow {
+        height: 340px;
+    }
+    .populler-child-wrap-three {
+        height: 340px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 576px) and (min-width: 100px){
+    .populler-child-wrap {
+        height: 350px;
+    }
+    .populler-child-wrap-tow {
+        height: 350px;
+    }
+    .populler-child-wrap-three {
+        height: 350px;
+    }
+    .ginger-content {
+        padding: 0px 40px 0px 40px;
+    }
+    #site-ginger {
+        padding-top: 0px !important;
+    }
+    .gallery-img-wrap {
+        height: 350px;
+    }
+    .gallery-img-wrap-tow {
+        height: 350px;
+    }
+    .gallery-img-wrap-three {
+        height: 350px;
+    }
+    div.menu-image {
+        height: 340px;
+    }
+    div.menu-image-tow {
+        height: 340px;
+    }
+    div.menu-image-three {
+        height: 340px;
+    }
+    div.menu-image-four {
+        height: 340px;
+    }
+
+
+
+    .ginger-image-wrapper {
+        height: 370px;
+    }
+    .croissant-with-popping {
+        height: 370px;
+    }
+    .chicken-image-wrapper {
+        height: 370px;
+    }
+    .site-contact-form form input {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .site-contact-form form button {
+        margin-left: 0px !important;
+    }
+
+
+}
+
+
+  
+  
